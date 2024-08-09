@@ -1,0 +1,34 @@
+{
+    "listProduct": [
+        {
+            "id": 1,
+            "title": "Bolo de Brigadeiro",
+            "description": "O bolo de chocolate é uma escolha deliciosa para qualquer ocasião, oferecendo uma ampla gama de variações e sabores para agradar a todos.",
+            "image": "../assets/images/img03.png"
+        },
+        {
+            "id": 2,
+            "title": "Brownie Delicioso",
+            "description": "Uma deliciosa combinação de café expresso, leite e chocolate.",
+            "image": "../assets/images/img02.png"
+        },
+        {
+            "id": 3,
+            "title": "CupCake Cremoso",
+            "description": "Uma bebida suave feita com café expresso e uma grande quantidade de leite vaporizado.",
+            "image": "../assets/images/img04.png"
+        },
+        {
+            "id": 4,
+            "title": "Donauts Recheados",
+            "description": "Um clássico italiano feito com partes iguais de café expresso, leite vaporizado e espuma de leite.",
+            "image": "../assets/images/img05.png"
+        },
+        {
+            "id": 5,
+            "title": "Cookies",
+            "description": "Uma bebida intensa feita com uma dose de café expresso e uma pequena quantidade de espuma de leite.",
+            "image": "../assets/images/img06.png"
+        }
+    ]
+}
