@@ -1,25 +1,16 @@
 import { Text, View, Image, Pressable, StyleSheet } from "react-native";
 import { Link } from 'expo-router';
-import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default function Index() {
   return (
     <View
       style={{
         flex: 1,
-        //justifyContent: 'center',
         alignItems: 'center',
+        justifyContent: 'center',
         backgroundColor: '#703B10'
       }}
     >
-
-      <Text
-        style={{ fontWeight: 'bold', marginBottom: 20, marginTop: 20, color: '#fff', fontSize: 20 }}
-      >
-       
-      </Text>
-      
-
 
       <Image
         style={{
@@ -30,34 +21,50 @@ export default function Index() {
         source={require('../assets/images/img01.png')}
       />
 
-      <Text
-        style={{ fontWeight: 'bold', marginBottom: 20, marginTop: 20, color: '#fff', fontSize: 20 }}
-      >{''}</Text>
-      
-      <Link href='/products' style={styles.button} asChild>
-      <Pressable style={styles.button}>
-        <Text style={styles.buttonText}>Acesse jáá
-        </Text>
-      </Pressable>
-      </Link>
-      
+      <View style={styles.buttonContainer}>
+        <Link href='/products' style={styles.button} asChild>
+          <Pressable style={styles.button}>
+            <Text style={styles.buttonText}>Acesse já</Text>
+          </Pressable>
+        </Link>
+
+        <Link href='/About' style={styles.button} asChild>
+          <Pressable style={styles.button}>
+            <Text style={styles.buttonText}>Sobre Nós</Text>
+          </Pressable>
+        </Link>
+
+        <Link href='/About02' style={styles.button} asChild>
+          <Pressable style={styles.button}>
+            <Text style={styles.buttonText}>Contato</Text>
+          </Pressable>
+        </Link>
+
+        <Link href='/flex' style={styles.button} asChild>
+          <Pressable style={styles.button}>
+            <Text style={styles.buttonText}>Linguagem</Text>
+          </Pressable>
+        </Link>
+      </View>
+
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-
-  button: {
-    position: 'absolute',
-    bottom: 0,
+  buttonContainer: {
     left: 0,
     right: 0,
-    margin: 50,
+    alignItems: 'center',
+  },
+  button: {
     backgroundColor: '#F2D8C2',
     alignItems: 'center',
     justifyContent: 'center',
     paddingVertical: 20,
     borderRadius: 10,
+    width: 200, // Fixed width to ensure buttons are the same size
+    marginVertical: 10, // Space between buttons
   },
   buttonText: {
     fontSize: 18,
@@ -65,4 +72,3 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
 });
-

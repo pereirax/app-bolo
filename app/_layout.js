@@ -17,8 +17,10 @@ export default function RootLayout() {
     >
       {/* <Stack.Screen name="index" options={{ headerShown: false }} /> */}
       <Stack.Screen name="index" options={{ title: "" }} />
-      <Stack.Screen name="products" options={{ title: "" }} />
+      <Stack.Screen name="products" options={{ title: "Products" }} />                  
+      <Stack.Screen name="About" options={{ title: "About" }} />                  
       <Stack.Screen name="coffeesingle/[id]" options={{ title: 'Cake Mania' }} />
+      <Stack.Screen name="flex" options={{ title: "Flex" }} />
     </Stack>
   );
 }

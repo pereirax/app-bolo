@@ -9,25 +9,25 @@
         {
             "id": 2,
             "title": "Brownie Delicioso",
-            "description": "Uma deliciosa combinação de café expresso, leite e chocolate.",
+            "description": "O Brownie Delicioso é uma sobremesa irresistível que combina o sabor intenso do chocolate com uma textura macia e úmida, levemente crocante por fora.",
             "image": "../assets/images/img02.png"
         },
         {
             "id": 3,
             "title": "CupCake Cremoso",
-            "description": "Uma bebida suave feita com café expresso e uma grande quantidade de leite vaporizado.",
+            "description": "O Cupcake Cremoso é uma deliciosa variação do tradicional cupcake, com uma massa fofa e recheio cremoso que se derrete na boca.",
             "image": "../assets/images/img04.png"
         },
         {
             "id": 4,
             "title": "Donauts Recheados",
-            "description": "Um clássico italiano feito com partes iguais de café expresso, leite vaporizado e espuma de leite.",
+            "description": "Donuts recheados são uma delícia que combina a maciez do tradicional donut com um recheio cremoso e saboroso.",
             "image": "../assets/images/img05.png"
         },
         {
             "id": 5,
             "title": "Cookies",
-            "description": "Uma bebida intensa feita com uma dose de café expresso e uma pequena quantidade de espuma de leite.",
+            "description": "Os cookies de chocolate são uma delícia clássica que conquista paladares ao redor do mundo. Feitos com uma massa doce e amanteigada,esses biscoitos combinam crocância por fora e maciez por dentro.",
             "image": "../assets/images/img06.png"
         }
     ]
